@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('explosao.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 30px auto;
+  text-align: center;
+  box-shadow: 0 0 15px #ff0;
+}
+
+header h1 {
+  font-size: 3em;
+  color: #ff0044;
+  animation: pulse 1s infinite;
+}
+header p {
+  font-size: 1.2em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  margin: 6px 0;
+  font-size: 1.1em;
+}
+
+button, a {
+  display: inline-block;
+  margin: 15px;
+  padding: 10px 20px;
+  background-color: #00ffcc;
+  color: #000;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+}
+button:hover, a:hover {
+  background-color: #ffdd00;
+}
+
+footer {
+  margin-tbackground: ;op: 30px;
+  font-size: 0.9em;
+  color: #ccc;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); color: #ff0044; }
+  50% { transform: scale(1.1); color: #00ffcc; }
+  100% { transform: scale(1); color: #ff0044; }
+}
+.container {
+  background: rgba(0, 0, 0, 0.75); /* preto transparente */
+  padding: 20px;
+  border-radius: 12px;
+}
